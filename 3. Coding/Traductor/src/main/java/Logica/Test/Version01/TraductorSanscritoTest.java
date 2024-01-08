@@ -1,5 +1,6 @@
 package Logica.Test.Version01;
 
+import Logica.TraductorSanscrito;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -12,5 +13,4 @@ public class TraductorSanscritoTest {
         assertEquals("abajo", traductor.traducir("adho"));
         assertEquals("cadáver", traductor.traducir("shava"));
     }
-
-    @Test
+}

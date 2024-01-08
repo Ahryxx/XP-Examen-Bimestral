@@ -1,3 +1,6 @@
+package Logica.Test.verson03;
+
+import Logica.TraductorSanscrito;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -9,5 +12,4 @@ public class TraductorSanscritoTest {
         String traduccion = traductor.traducir("adho mukha svanasana");
         assertEquals("Perro mirando hacia abajo", traduccion);
     }
-
-    @Test
+}
