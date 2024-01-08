@@ -309,7 +309,7 @@ public class JFTraductor extends javax.swing.JFrame {
         ts = new TraductorSanscrito();
         String textoSanscrito = jtaSanscrito.getText().toLowerCase().trim();
 
-       if (textoSanscrito.isEmpty()) {
+        if (textoSanscrito.isEmpty()) {
             JOptionPane.showMessageDialog(this, "El campo está vacío. Por favor, ingresa texto antes de traducir.", "Campo Vacío", JOptionPane.WARNING_MESSAGE);
         } else {
             String traducir = ts.traducir(textoSanscrito);
@@ -320,6 +320,7 @@ public class JFTraductor extends javax.swing.JFrame {
                 jtaTraducido.setText(traducir);
             }
         }
+
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -462,7 +463,82 @@ public class JFTraductor extends javax.swing.JFrame {
         System.out.println("Mapeo de la lista: " + mapa);
     }
 
-    
+    private void cargarImagenes() {
+        // Rutas de las imágenes en el paquete "Images"
+        String[] nombresArchivos = {
+            "0. Intro.gif",
+            "01. PosturaMontana.gif",
+            "02. PerroMirandoAbajo.gif",
+            "03. Guerrero1.gif",
+            "04. Guerrero2.gif",
+            "05. PosturaArbol.gif",
+            "06. PosturaNino.gif",
+            "07. PosturaCobraMitad.gif",
+            "08. FlexionHaciAdelanteSentado.gif",
+            "09. PosturaPuente.gif",
+            "10. PosturaCadaver.jpg",
+            "11. PosturaTriangulo.gif",
+            "12. PosturaPlancha.gif",
+            "13. PerroMirandoArriba.gif",
+            "14. PosturaPez.gif",
+            "15. PosturaSilla.gif",
+            "16. PosturaGuirnalda.gif",
+            "17. PosturaPaloma.gif",
+            "18. SaludoHaciaArriba.gif",
+            "19. PosturaTrianguloInvertido.gif",
+            "20. PosturaCabezaARodillaInvertida.gif"
+        };
+
+        // Obtener la ruta del paquete "Images"
+        Path rutaBase = Paths.get("src", "main", "java", "Images");
+
+        // Agregar las imágenes al mapa
+        for (int i = 0; i < nombresArchivos.length; i++) {
+            Path rutaImagen = rutaBase.resolve(nombresArchivos[i]);
+            mapaImagenes.put(i, new ImageIcon(rutaImagen.toString()));
+        }
+
+    }
+
+    private void mostrarImagenSeleccionada() {
+        int tab = tabPanel.getSelectedIndex();
+        int indiceSeleccionado = -1;
+        Map<Integer, String> idioma = new HashMap<>();
+
+        switch (tab) {
+            case 1 -> {
+                idioma = spanish;
+                indiceSeleccionado = buscarClavePorValor(idioma, cbEspanol.getSelectedItem());
+                mostrarImagen(lblImagen, indiceSeleccionado == -1 ? 0 : indiceSeleccionado);
+            }
+            case 2 -> {
+                idioma = english;
+                indiceSeleccionado = buscarClavePorValor(idioma, cbEnglish.getSelectedItem());
+                mostrarImagen(lblImagenEN, indiceSeleccionado == -1 ? 0 : indiceSeleccionado);
+            }
+            case 0 -> {
+                idioma = sanskrit;
+                indiceSeleccionado = buscarClavePorValor(idioma, cbSanskrit.getSelectedItem());
+                mostrarImagen(lblImagenSANS, indiceSeleccionado == -1 ? 0 : indiceSeleccionado);
+            }
+        }
+    }
+
+    private void mostrarImagen(JLabel label, int indiceSeleccionado) {
+        ImageIcon imagenSeleccionada = mapaImagenes.get(indiceSeleccionado);
+        System.out.println("Ruta de la imagen: " + imagenSeleccionada);
+
+        if (imagenSeleccionada != null) {
+            Icon icon = new ImageIcon(imagenSeleccionada.getImage().getScaledInstance(label.getWidth(), label.getHeight(), Image.SCALE_DEFAULT));
+            System.out.println("Tamaño del Icon: " + icon.getIconWidth() + " x " + icon.getIconHeight());
+            System.out.println("Dimensiones del JLabel: " + label.getWidth() + " x " + label.getHeight());
+            label.setIcon(icon);
+            label.setText("");
+        } else {
+            label.setIcon(null);
+            label.setText("Imagen NO Encontrada :c");
+        }
+    }
 
     private void mostrarTextoSeleccionado() {
         cargarIdioma(tabPanel.getSelectedIndex());
