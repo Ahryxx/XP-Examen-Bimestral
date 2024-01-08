@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 478,
+      "versionNonce": 1017489181,
+      "isDeleted": false,
+      "id": "LUofDOWp-yUuqT2HJnqYU",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 123.20743860429553,
+      "y": -197.92452308458957,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 818.7193603515625,
+      "height": 100,
+      "seed": 915421657,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1704688671507,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "                                Objetivo \n\nGenerar un Profesor de Yoga Virtual, este debe enfocarse en mostrar las asanas\n  o posturas, su traducción al ingles y español, sus morfemas y material visual.",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "                                Objetivo \n\nGenerar un Profesor de Yoga Virtual, este debe enfocarse en mostrar las asanas\n  o posturas, su traducción al ingles y español, sus morfemas y material visual.",
+      "lineHeight": 1.25,
+      "baseline": 93
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
