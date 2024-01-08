@@ -1,5 +1,21 @@
+# ESCUELA POLITÉCNICA NACIONAL
+## GRUPO 2 S.A.
 
-## Historia de usuario 2: Visualización de posturas en interfaz
+---
+Integrantes: 
+- Chalacama Erick
+- Davalos Mateo
+- De Castro Eiden
+- Dueñas Mateo
+- Flores Britanny
+- Fuertes José
+
+Versión: 3.0
+---
+
+
+
+## Historia de usuario 6: Visualización de posturas en interfaz
 
 **Como usuario, quiero poder ver representaciones gráficas claras y comprensibles de las posturas de yoga en la interfaz de la aplicación.**
 

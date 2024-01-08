@@ -1,8 +1,26 @@
+
+# ESCUELA POLITÉCNICA NACIONAL
+## GRUPO 2 S.A.
+
+---
+Integrantes: 
+- Chalacama Erick
+- Davalos Mateo
+- De Castro Eiden
+- Dueñas Mateo
+- Flores Britanny
+- Fuertes José
+
+Versión: 1.0
+---
+
 # Historias de usuario para aplicación de yoga
 
 ## Historia de usuario 1: Traducción entre Inglés, Sánscrito y Español
 
 **Como usuario, quiero que la aplicación pueda traducir posturas de yoga entre inglés, sánscrito y español.**
+
+
 
 **Criterios de aceptación:**
 

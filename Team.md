@@ -1,16 +1,11 @@
 # Integrantes
 
-José Fuertes
-
-Mateo Dueñas 
-
-Britanny Flores 
-
-Mateo Davalos 
-
-Erick Chalacama 
-
-Aiden de Castro 
+- Chalacama Erick
+- Davalos Mateo
+- De Castro Eiden
+- Dueñas Mateo
+- Flores Britanny
+- Fuertes José
 
 # Metáfora
 

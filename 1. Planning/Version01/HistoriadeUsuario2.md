@@ -1,3 +1,19 @@
+# ESCUELA POLITÉCNICA NACIONAL
+## GRUPO 2 S.A.
+
+---
+Integrantes: 
+- Chalacama Erick
+- Davalos Mateo
+- De Castro Eiden
+- Dueñas Mateo
+- Flores Britanny
+- Fuertes José
+
+Versión: 2.0
+---
+
+
 ## Historia de usuario 4: Autocompletar en la búsqueda
 
 **Como usuario, quiero poder buscar posturas de yoga fácilmente escribiendo solo una parte de su nombre.**
