@@ -309,7 +309,17 @@ public class JFTraductor extends javax.swing.JFrame {
         ts = new TraductorSanscrito();
         String textoSanscrito = jtaSanscrito.getText().toLowerCase().trim();
 
-       
+       if (textoSanscrito.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "El campo está vacío. Por favor, ingresa texto antes de traducir.", "Campo Vacío", JOptionPane.WARNING_MESSAGE);
+        } else {
+            String traducir = ts.traducir(textoSanscrito);
+
+            if (traducir.isBlank()) {
+                JOptionPane.showMessageDialog(this, "No se pudo traducir la palabra. No se encuentra en el diccionario.", "Error de Traducción", JOptionPane.ERROR_MESSAGE);
+            } else {
+                jtaTraducido.setText(traducir);
+            }
+        }
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
