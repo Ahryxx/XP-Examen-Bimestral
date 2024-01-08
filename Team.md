@@ -3,12 +3,12 @@
 
 # Integrantes
 
-- Chalacama Erick
-- Davalos Mateo
-- De Castro Eiden
-- Dueñas Mateo
-- Flores Britanny
-- Fuertes José
+- Chalacama Erick (Gestor)
+- Davalos Mateo (Programmer)
+- De Castro Eiden (Tester)
+- Dueñas Mateo (Coach)
+- Flores Britanny (Programmer)
+- Fuertes José (Tracker)
 
 # Metáfora
 

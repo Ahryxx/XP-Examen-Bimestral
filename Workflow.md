@@ -2,8 +2,8 @@
 
 ### Roles
 
-* **Líder de proyecto:** Es responsable de la planificación.
-* **Diseñador:** Es responsable de diseñar la  la lógica del software.
+* **Coach:** Es responsable de la planificación.
+* **Tracker:** Es responsable de diseñar la  la lógica del software.
 * **Desarrollador:** Es responsable de implementar el software.
 * **Probador:** Es responsable de probar el software.
 
@@ -12,7 +12,7 @@
 1. **Identificación de requisitos:**
     * El Cliente define los requisitos del proyecto, incluyendo las **historias de usuario**.
 
-    * El Líder de proyecto, el Diseñador y el Desarrollador participan en sesiones de preguntas y respuestas para clarificar los requisitos.
+    * El Coach, el Tracker y el Desarrollador participan en sesiones de preguntas y respuestas para clarificar los requisitos.
 
 2. **Planificación Iterativa:**
     * El Equipo de Desarrollo realiza una planificación de iteraciones.**
@@ -29,13 +29,13 @@
 
 ### Roles
 
-* **Líder de proyecto:** Es responsable de la coordinación del equipo de diseño.
-* **Diseñador:** Es responsable de diseñar la interfaz de usuario y la lógica del negocio.
+* **Coach:** Es responsable de la coordinación del equipo de diseño.
+* **Tracker:** Es responsable de diseñar la interfaz de usuario y la lógica del negocio.
 
 ### Procesos
 
 1. **Diseño Incremental:**
-    * El Diseñador crea diseños incrementales para la interfaz de usuario y la lógica del negocio.
+    * El Tracker crea diseños incrementales para la interfaz de usuario y la lógica del negocio.
     * Se realizan revisiones constantes para mejorar la calidad del diseño.
 
 ### Artefacto Resultante:
@@ -49,7 +49,7 @@
 
 ### Roles
 
-* **Líder de proyecto:** Es responsable de la coordinación del equipo de desarrollo.
+* **Coach:** Es responsable de la coordinación del equipo de desarrollo.
 * **Desarrollador:** Es responsable de implementar el software.
 
 ### Procesos
@@ -71,7 +71,7 @@
 
 ### Roles
 
-* **Líder de proyecto:** Es responsable de la coordinación del equipo de pruebas.
+* **Coach:** Es responsable de la coordinación del equipo de pruebas.
 * **Probador:** Es responsable de probar el software.
 
 ### Procesos
