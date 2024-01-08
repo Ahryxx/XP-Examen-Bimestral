@@ -10,7 +10,6 @@ Integrantes:
 - Flores Britanny
 - Fuertes José
 
-Versión: 1.0
 ---
 
 # Visión

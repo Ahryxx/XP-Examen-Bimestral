@@ -1,3 +1,6 @@
+# ESCUELA POLITÉCNICA NACIONAL
+## GRUPO 2 S.A.
+
 # Integrantes
 
 - Chalacama Erick

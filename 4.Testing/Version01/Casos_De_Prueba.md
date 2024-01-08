@@ -1,3 +1,19 @@
+# ESCUELA POLITÉCNICA NACIONAL
+## GRUPO 2 S.A.
+
+---
+Integrantes: 
+- Chalacama Erick
+- Davalos Mateo
+- De Castro Eiden
+- Dueñas Mateo
+- Flores Britanny
+- Fuertes José
+
+Versión: 1.0
+---
+# Testing del sistema de traducción YOGHISMO
+
 # Especificación de Casos de Prueba
 ## Casos Funcionales
 ## Caso de Prueba 1: Verificar la Traducción Correcta
